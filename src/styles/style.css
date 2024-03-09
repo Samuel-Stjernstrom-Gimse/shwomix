@@ -6,6 +6,9 @@
     overflow: hidden;
 }
 
-canvas{
-    background-color: gray;
+canvas {
+    background-image: url("../assets/images/floor.jpg");
+    background-size: 128px 128px; /* Set the size of each tile */
+    background-repeat: repeat;
+    display: block;
 }

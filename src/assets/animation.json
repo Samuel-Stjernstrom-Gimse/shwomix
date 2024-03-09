@@ -1,0 +1,115 @@
+{
+	"bodyTypeName": "male",
+	"url": "https://sanderfrenken.github.io/Universal-LPC-Spritesheet-Character-Generator/#?body=Body_color_light&head=Human_male_light&sex=male&eyes=Eyes_gray&beard=Winter_gray&hat=Magic_brown_2&clothes=Longsleeve_white&legs=Pants_lavender&shoes=Boots_brown&weapon=Simple_staff_simple&jacket=Iverness_cloak_black&gloves=Gloves_white&neck=Scarf_red&shadow=none&prosthesis_leg=none&prosthesis_hand=none&nose=Big_nose_light&jacket_pockets=Jacket_pockets_pink",
+	"spritesheets": "https://sanderfrenken.github.io/Universal-LPC-Spritesheet-Character-Generator/spritesheets/",
+	"version": 1,
+	"datetime": "3/9/2024, 9:26:26 PM",
+	"credits": "Authors: bluecarrot16, Benjamin K. Smith (BenCreating), Evert, Eliza Wyatt (ElizaWy), TheraHedwig, MuffinElZangano, Durrani, Johannes Sj?lund (wulax), Stephen Challener (Redshrike), Thane Brimhall (pennomi), Matthew Krohn (makrohn), Mark Weyer, Johannes Sjölund (wulax), Stafford McIntyre, PlatForge project, Nila122, Michael Whitlock (bigbeargames), David Conway Jr. (JaidynReiman), Joe White, Dr. Jamgo\n\n- body/bodies/male/universal/light.png: by bluecarrot16, Benjamin K. Smith (BenCreating), Evert, Eliza Wyatt (ElizaWy), TheraHedwig, MuffinElZangano, Durrani, Johannes Sj?lund (wulax), Stephen Challener (Redshrike). License(s): CC-BY-SA 3.0, GPL 3.0. \n    - https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles\n    - https://opengameart.org/content/lpc-medieval-fantasy-character-sprites\n    - https://opengameart.org/content/lpc-male-jumping-animation-by-durrani\n    - https://opengameart.org/content/lpc-runcycle-and-diagonal-walkcycle\n    - https://opengameart.org/content/lpc-revised-character-basics\n\n- head/heads/human_male/universal/light.png: by bluecarrot16, Benjamin K. Smith (BenCreating), Stephen Challener (Redshrike). License(s): OGA-BY 3.0, CC-BY-SA 3.0, GPL 3.0. \n    - https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles\n    - https://opengameart.org/content/lpc-character-bases\n\n- head/nose/big/light.png: by Thane Brimhall (pennomi), Matthew Krohn (makrohn). License(s): GPL 3.0, CC-BY-SA 3.0. \n    - https://opengameart.org/content/lpc-base-character-expressions\n\n- eyes/male/gray.png: by Mark Weyer, Johannes Sjölund (wulax), Matthew Krohn (makrohn), Stephen Challener (Redshrike). License(s): CC-BY-SA 3.0, GPL 3.0. \n    - https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles\n    - https://opengameart.org/content/lpc-medieval-fantasy-character-sprites\n\n- beards/winter/male/gray.png: by bluecarrot16. License(s): CC0. \n    - https://opengameart.org/content/lpc-santa\n\n- hat/magic/male/brown_2.png: by Stafford McIntyre, PlatForge project, Evert. License(s): CC-BY-SA 3.0. \n    - https://opengameart.org/content/wizard-2\n    - https://opengameart.org/content/wizard-hat\n\n- neck/scarf/red.png: by Nila122, Johannes Sjölund (wulax), Stephen Challener (Redshrike). License(s): CC-BY-SA 3.0, GPL 2.0, GPL 3.0. \n    - https://opengameart.org/content/more-lpc-clothes-and-hair\n\n- gloves/male/white.png: by Michael Whitlock (bigbeargames), Matthew Krohn (makrohn), Johannes Sjölund (wulax), bluecarrot16. License(s): CC-BY-SA 3.0, GPL 3.0. \n    - https://opengameart.org/content/lpc-medieval-fantasy-character-sprites\n    - http://opengameart.org/content/lpc-clothing-updates\n\n- torso/clothes/longsleeve/male/white.png: by David Conway Jr. (JaidynReiman), Johannes Sjölund (wulax). License(s): CC-BY-SA 3.0, GPL 3.0. \n    - https://opengameart.org/content/lpc-medieval-fantasy-character-sprites\n    - http://opengameart.org/content/lpc-clothing-updates\n\n- torso/jacket/iverness/male/black.png: by bluecarrot16. License(s): CC-BY-SA 3.0, GPL 3.0. \n    - https://opengameart.org/content/lpc-gentleman\n\n- torso/jacket/trim/jacket_pockets/pink.png: by bluecarrot16. License(s): OGA-BY 3.0. \n    - https://opengameart.org/content/lpc-pirates\n\n- legs/pants/male/lavender.png: by bluecarrot16, David Conway Jr. (JaidynReiman), Joe White, Matthew Krohn (makrohn), Johannes Sjölund (wulax). License(s): CC-BY-SA 3.0, GPL 3.0. \n    - https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles\n    - https://opengameart.org/content/lpc-medieval-fantasy-character-sprites\n\n- feet/boots/male/brown.png: by bluecarrot16, Nila122. License(s): CC-BY-SA 3.0, GPL 2.0, GPL 3.0. \n    - https://opengameart.org/content/lpc-clothes-and-hair\n    - https://opengameart.org/content/lpc-santa\n    - http://opengameart.org/content/lpc-clothing-updates\n\n- weapon/magic/simple/foreground/simple.png: by bluecarrot16, Dr. Jamgo. License(s): CC0. \n    - https://opengameart.org/content/lpc-simple-staff\n\n- weapon/magic/simple/background/simple.png: by bluecarrot16, Dr. Jamgo. License(s): CC0. \n    - https://opengameart.org/content/lpc-simple-staff",
+	"layers": [
+		{
+			"fileName": "weapon/magic/simple/background/simple.png",
+			"zPos": 9,
+			"parentName": "weapon",
+			"name": "Simple staff",
+			"variant": "simple"
+		},
+		{
+			"fileName": "body/bodies/male/universal/light.png",
+			"zPos": 10,
+			"parentName": "body",
+			"name": "Body color",
+			"variant": "light"
+		},
+		{
+			"fileName": "legs/pants/male/lavender.png",
+			"zPos": 20,
+			"parentName": "legs",
+			"name": "Pants",
+			"variant": "lavender"
+		},
+		{
+			"fileName": "feet/boots/male/brown.png",
+			"zPos": 25,
+			"parentName": "shoes",
+			"name": "Boots",
+			"variant": "brown"
+		},
+		{
+			"fileName": "torso/clothes/longsleeve/male/white.png",
+			"zPos": 35,
+			"parentName": "clothes",
+			"name": "Longsleeve",
+			"variant": "white"
+		},
+		{
+			"fileName": "torso/jacket/iverness/male/black.png",
+			"zPos": 55,
+			"parentName": "jacket",
+			"name": "Iverness cloak",
+			"variant": "black"
+		},
+		{
+			"fileName": "torso/jacket/trim/jacket_pockets/pink.png",
+			"zPos": 59,
+			"parentName": "jacket_pockets",
+			"name": "Jacket pockets",
+			"variant": "pink"
+		},
+		{
+			"fileName": "gloves/male/white.png",
+			"zPos": 70,
+			"parentName": "gloves",
+			"name": "Gloves",
+			"variant": "white"
+		},
+		{
+			"fileName": "neck/scarf/red.png",
+			"zPos": 90,
+			"parentName": "neck",
+			"name": "Scarf",
+			"variant": "red"
+		},
+		{
+			"fileName": "head/heads/human_male/universal/light.png",
+			"zPos": 100,
+			"parentName": "head",
+			"name": "Human male",
+			"variant": "light"
+		},
+		{
+			"fileName": "head/nose/big/light.png",
+			"zPos": 105,
+			"parentName": "nose",
+			"name": "Big nose",
+			"variant": "light"
+		},
+		{
+			"fileName": "eyes/male/gray.png",
+			"zPos": 105,
+			"parentName": "eyes",
+			"name": "Eyes",
+			"variant": "gray"
+		},
+		{
+			"fileName": "beards/winter/male/gray.png",
+			"zPos": 110,
+			"parentName": "beard",
+			"name": "Winter",
+			"variant": "gray"
+		},
+		{
+			"fileName": "hat/magic/male/brown_2.png",
+			"zPos": 130,
+			"parentName": "hat",
+			"name": "Magic",
+			"variant": "brown 2"
+		},
+		{
+			"fileName": "weapon/magic/simple/foreground/simple.png",
+			"zPos": 140,
+			"parentName": "weapon",
+			"name": "Simple staff",
+			"variant": "simple"
+		}
+	]
+}
