@@ -36,14 +36,21 @@ export class Game {
 		this.player = new Player(this.getCenterX(), this.getCenterY());
 		this.enemySpawnHandler = new EnemySpawnHandler(canvas, this.player);
 
-		// Create multiple orbs
-		this.orbs.push(new Orb(this.player,this.enemySpawnHandler,100, 0.100, '#ff7be9'));
-		this.orbs.push(new Orb(this.player,this.enemySpawnHandler,125, 0.125, '#ff0fdf'));
-		this.orbs.push(new Orb(this.player,this.enemySpawnHandler,150, 0.150, '#b700ff'));
-		this.orbs.push(new Orb(this.player,this.enemySpawnHandler,175, 0.175, '#b700ff'));
-		this.orbs.push(new Orb(this.player,this.enemySpawnHandler,200, 0.200, '#b700ff'));
-		this.orbs.push(new Orb(this.player,this.enemySpawnHandler,225, 0.225, '#b700ff'));
-		this.orbs.push(new Orb(this.player,this.enemySpawnHandler,250, 0.250, '#b700ff'));
+		this.orbs.push(new Orb(this.player, this.enemySpawnHandler, 100, 0.1, '#ff7be9'));
+		this.orbs.push(new Orb(this.player, this.enemySpawnHandler, 125, 0.125, '#ff0fdf'));
+		this.orbs.push(new Orb(this.player, this.enemySpawnHandler, 150, 0.15, '#b700ff'));
+		this.orbs.push(new Orb(this.player, this.enemySpawnHandler, 175, 0.175, '#b700ff'));
+		this.orbs.push(new Orb(this.player, this.enemySpawnHandler, 200, 0.2, '#b700ff'));
+		this.orbs.push(new Orb(this.player, this.enemySpawnHandler, 225, 0.225, '#b700ff'));
+		this.orbs.push(new Orb(this.player, this.enemySpawnHandler, 250, 0.25, '#b700ff'));
+
+		this.orbs.push(new Orb(this.player, this.enemySpawnHandler, 100, -0.1, '#005486'));
+		this.orbs.push(new Orb(this.player, this.enemySpawnHandler, 125, -0.125, '#005486'));
+		this.orbs.push(new Orb(this.player, this.enemySpawnHandler, 150, -0.15, '#005486'));
+		this.orbs.push(new Orb(this.player, this.enemySpawnHandler, 175, -0.175, '#005486'));
+		this.orbs.push(new Orb(this.player, this.enemySpawnHandler, 200, -0.2, '#005486'));
+		this.orbs.push(new Orb(this.player, this.enemySpawnHandler, 225, -0.225, '#005486'));
+		this.orbs.push(new Orb(this.player, this.enemySpawnHandler, 250, -0.25, '#005486'));
 
 		this.healthUI = new HealthUI(this.ctx, this.player);
 		this.energyUI = new EnergyUI(this.ctx, this.player);

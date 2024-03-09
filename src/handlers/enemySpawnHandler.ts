@@ -42,16 +42,27 @@ export class EnemySpawnHandler {
 	}
 
 	private spawnEnemy(): void {
-		// Generate random position for the enemy
-		const randomX = Math.random() * this.canvas.width;
-		const randomY = Math.random() * this.canvas.height;
+		const minDistanceFromPlayer = 500; // Minimum distance from the player for enemy spawn
 
-		const size = getRandomNumberInRange(25, 45)
-		const speed = (1 / size) * 25
+		let randomX, randomY;
+		do {
+			// Generate random position for the enemy
+			randomX = Math.random() * this.canvas.width;
+			randomY = Math.random() * this.canvas.height;
+		} while (this.isTooCloseToPlayer(randomX, randomY, minDistanceFromPlayer));
+
+		const size = getRandomNumberInRange(25, 45);
+		const speed = (1 / size) * 25;
 
 		// Create a new enemy and add it to the enemies array
 		const newEnemy = new Enemy(randomX, randomY, size, size, speed, 0.1, 400, 50, 50, 10, getRandomColor(), this.player);
 		this.enemies.push(newEnemy);
+	}
+
+	private isTooCloseToPlayer(x: number, y: number, minDistance: number): boolean {
+		// Calculate distance between enemy spawn position and player position
+		const distance = Math.sqrt(Math.pow(this.player.getPos().x - x, 2) + Math.pow(this.player.getPos().y - y, 2));
+		return distance < minDistance;
 	}
 
 }
